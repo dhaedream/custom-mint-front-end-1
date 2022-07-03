@@ -9,11 +9,13 @@ function App() {
   const ref = useRef();
   return (
     <div className="App">
+      <h1>Test</h1>
       <Canvas>
         <mesh ref={ref}>
-          <boxGeometry attach="geometry" args={[1, 1, 1]} />
+          <boxGeometry attach="geometry" args={[2, 2, 2]} />
         </mesh>
       </Canvas>
+      <h2>1 2 3!</h2>
     </div>
   );
 }
