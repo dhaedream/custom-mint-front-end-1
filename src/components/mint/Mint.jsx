@@ -12,10 +12,11 @@ const Mint = () => {
     <div>
       <Navbar />
       <h1>Mint</h1>
-      <div className="mint-container"></div>
-      <div className="mint-canvas-card">
-        <div className="mint-canvas-wrapper">
-          <CanvasJsx />
+      <div className="mint-container">
+        <div className="mint-canvas-card">
+          <div className="mint-canvas-wrapper">
+            <CanvasJsx />
+          </div>
         </div>
       </div>
       <h1>Customize</h1>
