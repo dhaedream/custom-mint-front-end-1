@@ -1,0 +1,21 @@
+.mint-canvas-card {
+  height: 65vh;
+  width: 85vw;
+  border-radius: 25px;
+  padding: 1vh;
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    265deg,
+    rgba(0, 225, 255, 0.2) 0%,
+    rgba(255, 0, 191, 0.2) 100%
+  );
+}
+
+.mint-canvas-wrapper {
+  border: 3px solid rgb(67, 67, 67);
+  border-radius: 25px;
+  padding: 1vh;
+  height: 60vh;
+  width: 80vw;
+  background: rgba(0, 0, 0, 0.2);
+}

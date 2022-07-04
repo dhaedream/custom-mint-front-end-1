@@ -7,13 +7,11 @@ const CanvasJsx = () => {
   const ref = useRef();
 
   return (
-    <div className="mint-canvas-wrapper">
-      <Canvas>
-        <mesh ref={ref}>
-          <boxGeometry attach="geometry" args={[2, 2, 2]} />
-        </mesh>
-      </Canvas>
-    </div>
+    <Canvas>
+      <mesh ref={ref}>
+        <boxGeometry attach="geometry" args={[2, 2, 2]} />
+      </mesh>
+    </Canvas>
   );
 };
 
