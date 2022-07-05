@@ -16,3 +16,21 @@
   /* align-items: center; */
   /* justify-content: center; */
 }
+.selector-object-row {
+  display: flex;
+  justify-content: space-between;
+}
+.selector-img-icon {
+  /* height: 65px; */
+  width: 5.5vw;
+  border-radius: 50%;
+  padding: 0 1px;
+}
+.selector-object-highlight-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh 3vw;
+}
+.selector-img-focus {
+  height: 30vh;
+}

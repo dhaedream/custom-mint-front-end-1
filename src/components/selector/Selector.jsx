@@ -7,10 +7,19 @@ const Selector = () => {
     <div className="selector">
       <h2>Customize:</h2>
       <div className="selector-container">
-        <div className="selector-single-row">
+        <div className="selector-wrap">
           <div className="selector-object">
-            <h3>face</h3>
-            <img src={face} />
+            <div className="selector-object-row">
+              <img className="selector-img-icon" src={face} alt="face-icon" />
+              <img className="selector-img-icon" src={face} alt="face-icon" />
+              <img className="selector-img-icon" src={face} alt="face-icon" />
+              <img className="selector-img-icon" src={face} alt="face-icon" />
+              <img className="selector-img-icon" src={face} alt="face-icon" />
+            </div>
+            <div className="selector-object-highlight-wrap">
+              <h3>face</h3>
+              <img className="selector-img-focus" src={face} alt="face-icon" />
+            </div>
           </div>
           <div>
             <input />
