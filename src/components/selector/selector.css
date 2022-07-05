@@ -1,0 +1,18 @@
+.selector {
+  border: 3px solid rgb(67, 67, 67);
+
+  height: 65vh;
+  width: 30vw;
+  border-radius: 25px;
+  padding: 1vh;
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    265deg,
+    rgba(0, 225, 255, 0.2) 0%,
+    rgba(255, 0, 191, 0.2) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
