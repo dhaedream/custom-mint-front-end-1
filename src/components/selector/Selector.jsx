@@ -4,9 +4,10 @@ import "./selector.css";
 const Selector = () => {
   return (
     <div>
-      <div className="mint-custom-wrap">
-        <div className="mint-custom-single-row">
-          <div className="mint-custom-object">
+      <h2>Customize:</h2>
+      <div className="selector-container">
+        <div className="selector-single-row">
+          <div className="selector-object">
             <img />
           </div>
           <div>
