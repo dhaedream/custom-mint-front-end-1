@@ -1,6 +1,7 @@
 import React from "react";
 import CanvasJsx from "../../components/canvas/CanvasJsx";
 import Navbar from "../../components/navbar/Navbar";
+import Selector from "../selector/Selector";
 import "./mint.css";
 // import { useRef, useState } from "react";
 // import { Canvas } from "@react-three/fiber";
@@ -17,17 +18,7 @@ const Mint = () => {
           <div className="mint-canvas-wrapper">
             <CanvasJsx />
           </div>
-          <div className="mint-custom-wrap">
-            <div className="mint-custom-single-row">
-              <div className="mint-custom-object">
-                <img />
-              </div>
-              <div>
-                <input />
-                <label />
-              </div>
-            </div>
-          </div>
+          <Selector />
         </div>
       </div>
       <h1>Customize</h1>
