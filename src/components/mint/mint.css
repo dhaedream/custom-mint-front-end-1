@@ -4,15 +4,15 @@
   min-height: 100vh;
 
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .mint-canvas-card {
   border: 3px solid rgb(67, 67, 67);
 
   height: 65vh;
-  width: 85vw;
+  width: 65vw;
   border-radius: 25px;
   padding: 1vh;
   background: rgb(63, 94, 251);
@@ -30,7 +30,7 @@
   border: 3px solid rgb(67, 67, 67);
   border-radius: 25px;
   padding: 1vh;
-  height: 60vh;
-  width: 80vw;
+  height: 50vh;
+  width: 50vw;
   background: rgba(0, 0, 0, 0.2);
 }

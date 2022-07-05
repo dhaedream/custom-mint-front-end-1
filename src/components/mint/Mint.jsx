@@ -17,6 +17,17 @@ const Mint = () => {
           <div className="mint-canvas-wrapper">
             <CanvasJsx />
           </div>
+          <div className="mint-custom-wrap">
+            <div className="mint-custom-single-row">
+              <div className="mint-custom-object">
+                <img />
+              </div>
+              <div>
+                <input />
+                <label />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <h1>Customize</h1>
