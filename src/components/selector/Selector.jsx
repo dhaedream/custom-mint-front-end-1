@@ -9,22 +9,38 @@ const Selector = () => {
       <div className="selector-container">
         <div className="selector-wrap">
           <div className="selector-object">
-            <div className="selector-object-row">
-              <img className="selector-img-icon" src={face} alt="face-icon" />
-              <img className="selector-img-icon" src={face} alt="face-icon" />
-              <img className="selector-img-icon" src={face} alt="face-icon" />
-              <img className="selector-img-icon" src={face} alt="face-icon" />
-              <img className="selector-img-icon" src={face} alt="face-icon" />
-            </div>
-            <div className="selector-object-highlight-wrap">
-              <h3>face</h3>
-              <img className="selector-img-focus" src={face} alt="face-icon" />
+            <div className="selector-custom-container">
+              <div className="selector-custom-wrap">
+                <img className="selector-img-icon" src={face} alt="face-icon" />
+                <label for="face">Face</label>
+                <input type="color" id="face" name="face" />
+              </div>{" "}
+              <div className="selector-custom-wrap">
+                <img className="selector-img-icon" src={face} alt="face-icon" />
+                <label for="face">Face</label>
+                <input type="color" id="face" name="face" />
+              </div>{" "}
+              <div className="selector-custom-wrap">
+                <img className="selector-img-icon" src={face} alt="face-icon" />
+                <label for="face">Face</label>
+                <input type="color" id="face" name="face" />
+              </div>{" "}
+              <div className="selector-custom-wrap">
+                <img className="selector-img-icon" src={face} alt="face-icon" />
+                <label for="face">Face</label>
+                <input type="color" id="face" name="face" />
+              </div>{" "}
+              <div className="selector-custom-wrap">
+                <img className="selector-img-icon" src={face} alt="face-icon" />
+                <label for="face">Face</label>
+                <input type="color" id="face" name="face" />
+              </div>
             </div>
           </div>
-          <div>
-            <input />
-            <label />
-          </div>
+          {/* <div className="selector-custom-wrap">
+            <label for="face">Face</label>
+            <input type="color" id="face" name="face" />
+          </div> */}
         </div>
       </div>
     </div>

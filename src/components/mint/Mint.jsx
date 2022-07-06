@@ -12,7 +12,7 @@ const Mint = () => {
   return (
     <div>
       <Navbar />
-      <h1>Mint</h1>
+      <h1>Mint Custom NFT</h1>
       <div className="mint-container">
         <div className="mint-canvas-card">
           <div className="mint-canvas-wrapper">
@@ -22,7 +22,6 @@ const Mint = () => {
         </div>
         <Selector />
       </div>
-      <h1>Customize</h1>
     </div>
   );
 };

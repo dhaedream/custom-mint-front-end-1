@@ -28,9 +28,24 @@
 }
 .selector-object-highlight-wrap {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1vh 3vw;
 }
 .selector-img-focus {
   height: 30vh;
+}
+.selector-custom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-between;
+  padding: 1vh 3vw;
+}
+.selector-custom-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.5vh 0;
 }
