@@ -34,3 +34,22 @@
   width: 50vw;
   background: rgba(0, 0, 0, 0.2);
 }
+/* medium screen */
+@media screen and (max-width: 992px) {
+  .mint-container {
+    min-height: 80vh;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .mint-canvas-card {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 72vh;
+    margin: auto 0;
+  }
+}
+
+/* small screen */
+@media (max-width: 575.98px) {
+}

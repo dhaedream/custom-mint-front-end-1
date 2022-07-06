@@ -18,9 +18,9 @@ const Mint = () => {
           <div className="mint-canvas-wrapper">
             <CanvasJsx />
           </div>
-          {/* <Selector /> */}
+          <Selector />
         </div>
-        <Selector />
+        {/* <Selector /> */}
       </div>
     </div>
   );

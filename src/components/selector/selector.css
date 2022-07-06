@@ -49,3 +49,11 @@
 
   padding: 0.5vh 0;
 }
+.selector-label {
+  font-size: 1.5rem;
+  /* pushes content to left  */
+  margin-right: auto;
+}
+/* medium screen */
+@media screen and (max-width: 992px) {
+}
