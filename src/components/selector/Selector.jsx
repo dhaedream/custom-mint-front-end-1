@@ -16,10 +16,15 @@ const Selector = () => {
             <div className="selector-custom-container">
               <div className="selector-custom-wrap">
                 <img className="selector-img-icon" src={aura} alt="aura-icon" />
+                <input
+                  type="color"
+                  id="aura"
+                  name="aura"
+                  className="selector-input"
+                />
                 <label for="aura" className="selector-label">
                   Aura
                 </label>
-                <input type="color" id="aura" name="aura" />
               </div>
               <div className="selector-custom-wrap">
                 <img
@@ -27,31 +32,52 @@ const Selector = () => {
                   src={antenna}
                   alt="ant-icon"
                 />
+
+                <input
+                  type="color"
+                  id="ant"
+                  name="ant"
+                  className="selector-input"
+                />
                 <label for="ant" className="selector-label">
                   Antenna
                 </label>
-                <input type="color" id="ant" name="ant" />
               </div>
               <div className="selector-custom-wrap">
                 <img className="selector-img-icon" src={eyes} alt="eyes-icon" />
+                <input
+                  type="color"
+                  id="eyes"
+                  name="eyes"
+                  className="selector-input"
+                />
                 <label for="eyes" className="selector-label">
                   Eyes
                 </label>
-                <input type="color" id="eyes" name="eyes" />
               </div>
               <div className="selector-custom-wrap">
                 <img className="selector-img-icon" src={face} alt="face-icon" />
+                <input
+                  type="color"
+                  id="face"
+                  name="face"
+                  className="selector-input"
+                />
                 <label for="face" className="selector-label">
                   Face
                 </label>
-                <input type="color" id="face" name="face" />
               </div>
               <div className="selector-custom-wrap">
                 <img className="selector-img-icon" src={body} alt="body-icon" />
+                <input
+                  type="color"
+                  id="body"
+                  name="body"
+                  className="selector-input"
+                />
                 <label for="face" className="selector-label">
                   Body
                 </label>
-                <input type="color" id="body" name="body" />
               </div>
             </div>
           </div>
