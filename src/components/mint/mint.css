@@ -1,15 +1,11 @@
 .mint-container {
   border: 3px solid rgb(67, 67, 67);
-
   height: 80vh;
-  /* max-width: 1400px; */
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
 .mint-canvas-card {
   border: 3px solid rgb(67, 67, 67);
 
@@ -27,7 +23,6 @@
   align-items: center;
   justify-content: space-between;
 }
-
 .mint-canvas-wrapper {
   border: 3px solid rgb(67, 67, 67);
   border-radius: 25px;
