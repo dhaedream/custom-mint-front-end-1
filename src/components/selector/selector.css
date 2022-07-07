@@ -32,9 +32,6 @@
   justify-content: center;
   padding: 1vh 3vw;
 }
-.selector-img-focus {
-  height: 30vh;
-}
 .selector-custom-container {
   display: flex;
   flex-direction: column;
@@ -105,4 +102,18 @@
 }
 /* small screen */
 @media (max-width: 575.98px) {
+  .selector-label {
+    display: none;
+  }
+  .selector {
+    height: 25vh;
+  }
+  .selector-custom-wrap {
+    height: 13vh;
+  }
+  .selector-input {
+    /* margin: 2vh; */
+    height: 8vh;
+    width: 13vw;
+  }
 }

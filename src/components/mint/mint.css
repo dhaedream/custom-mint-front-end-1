@@ -2,7 +2,7 @@
   border: 3px solid rgb(67, 67, 67);
 
   height: 80vh;
-  max-width: 1400px;
+  /* max-width: 1400px; */
 
   display: flex;
   flex-direction: column;
@@ -40,7 +40,7 @@
 @media screen and (max-width: 992px) {
   .mint-container {
     min-height: 75vh;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
   }
   .mint-canvas-card {
@@ -59,4 +59,15 @@
 
 /* small screen */
 @media (max-width: 575.98px) {
+  .mint-container {
+    min-height: 85vh;
+  }
+  .mint-canvas-card {
+    width: 92vw;
+    height: 85vh;
+  }
+  .mint-canvas-wrapper {
+    height: 50vh;
+    width: 85vw;
+  }
 }
