@@ -87,6 +87,7 @@
   .selector-label {
     font-size: 2rem;
     margin-right: 0;
+    display: none;
   }
 }
 /* small screen */
