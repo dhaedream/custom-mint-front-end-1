@@ -8,10 +8,11 @@ title: cute alien
 
 import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
+import alienLink from "./alien.gltf";
 
-export default function Model({ ...props }) {
+export default function Alien({ ...props }) {
   const group = useRef();
-  const { nodes, materials } = useGLTF("/scene.gltf");
+  const { nodes, materials } = useGLTF(alienLink);
   return (
     <group ref={group} {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
@@ -92,7 +93,7 @@ export default function Model({ ...props }) {
   );
 }
 
-useGLTF.preload("/scene.gltf");
+useGLTF.preload(alienLink);
 
 // Model Information:
 // * title:	cute alien
